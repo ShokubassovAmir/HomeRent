@@ -1,0 +1,18 @@
+[2020-05-07 17:05:34] local.ERROR: Your configuration files are not serializable. {"exception":"[object] (LogicException(code: 0): Your configuration files are not serializable. at /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Foundation/Console/ConfigCacheCommand.php:71, Error(code: 0): Call to undefined method Illuminate\\Validation\\Rules\\In::__set_state() at /opt/lampp/htdocs/booking8/bootstrap/cache/config.php:554)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Console\\ConfigCacheCommand->handle()
+#1 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array()
+#2 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#3 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#4 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Container/Container.php(576): Illuminate\\Container\\BoundMethod::call()
+#5 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call()
+#6 /opt/lampp/htdocs/booking8/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute()
+#7 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run()
+#8 /opt/lampp/htdocs/booking8/vendor/symfony/console/Application.php(1001): Illuminate\\Console\\Command->run()
+#9 /opt/lampp/htdocs/booking8/vendor/symfony/console/Application.php(271): Symfony\\Component\\Console\\Application->doRunCommand()
+#10 /opt/lampp/htdocs/booking8/vendor/symfony/console/Application.php(147): Symfony\\Component\\Console\\Application->doRun()
+#11 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#12 /opt/lampp/htdocs/booking8/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#13 /opt/lampp/htdocs/booking8/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#14 {main}
+"} 
