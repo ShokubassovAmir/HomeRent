@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsTableViewCell" rowHeight="377" id="KGk-i7-Jjw" customClass="NewsTableViewCell" customModule="HomeRent" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="377"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="432" height="377"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="23928070" translatesAutoresizingMaskIntoConstraints="NO" id="TcO-V3-bby">
+                        <rect key="frame" x="0.0" y="67" width="432" height="210"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="210" id="wCS-oc-ZBw"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Secret_original_logo" translatesAutoresizingMaskIntoConstraints="NO" id="pHB-FO-dWO">
+                        <rect key="frame" x="16" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="EAg-Zq-Xmd"/>
+                            <constraint firstAttribute="height" constant="40" id="PjX-3A-jDF"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наше приложение установило 1000 человек!" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLv-VY-ceW">
+                        <rect key="frame" x="16" y="289" width="400" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="С HomeRent быстро,удобно,надежно!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39L-Fw-gxd">
+                        <rect key="frame" x="16" y="343" width="222.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Команда HomeRent" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlM-6k-7tJ">
+                        <rect key="frame" x="72" y="19.5" width="165" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="TcO-V3-bby" secondAttribute="trailing" id="41Q-bn-1H2"/>
+                    <constraint firstItem="TcO-V3-bby" firstAttribute="top" secondItem="pHB-FO-dWO" secondAttribute="bottom" constant="17" id="DEF-Dr-IMN"/>
+                    <constraint firstItem="pHB-FO-dWO" firstAttribute="centerY" secondItem="BlM-6k-7tJ" secondAttribute="centerY" id="GnT-iC-8oK"/>
+                    <constraint firstItem="BlM-6k-7tJ" firstAttribute="leading" secondItem="pHB-FO-dWO" secondAttribute="trailing" constant="16" id="Iri-8t-kIB"/>
+                    <constraint firstItem="pHB-FO-dWO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Pfg-Lj-6rC"/>
+                    <constraint firstItem="jLv-VY-ceW" firstAttribute="top" secondItem="TcO-V3-bby" secondAttribute="bottom" constant="12" id="eaf-aR-0ha"/>
+                    <constraint firstItem="pHB-FO-dWO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gk8-7y-JzS"/>
+                    <constraint firstAttribute="trailing" secondItem="jLv-VY-ceW" secondAttribute="trailing" constant="16" id="iDI-gr-pEA"/>
+                    <constraint firstItem="jLv-VY-ceW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="iou-ku-B7X"/>
+                    <constraint firstItem="TcO-V3-bby" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uW5-N3-iPr"/>
+                    <constraint firstItem="39L-Fw-gxd" firstAttribute="top" secondItem="jLv-VY-ceW" secondAttribute="bottom" constant="6" id="xIZ-3D-GHk"/>
+                    <constraint firstItem="39L-Fw-gxd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="zJ9-Ty-XKv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentLbl" destination="jLv-VY-ceW" id="6ur-OZ-Nnb"/>
+            </connections>
+            <point key="canvasLocation" x="218.84057971014494" y="227.34375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="23928070" width="1000" height="633"/>
+        <image name="Secret_original_logo" width="174" height="240"/>
+    </resources>
+</document>

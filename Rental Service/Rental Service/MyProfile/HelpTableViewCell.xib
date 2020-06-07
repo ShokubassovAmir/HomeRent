@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HelpTableViewCell" rowHeight="80" id="KGk-i7-Jjw" customClass="HelpTableViewCell" customModule="Rental_Service" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Условия отмены бронирования" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fla-TE-RlI">
+                        <rect key="frame" x="16" y="36" width="251.5" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line" translatesAutoresizingMaskIntoConstraints="NO" id="yEF-w5-WFK">
+                        <rect key="frame" x="0.0" y="87" width="346" height="1"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="yEF-w5-WFK" secondAttribute="trailing" id="270-a7-mu7"/>
+                    <constraint firstAttribute="bottom" secondItem="yEF-w5-WFK" secondAttribute="bottom" constant="4" id="4J2-db-rg9"/>
+                    <constraint firstItem="fla-TE-RlI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="QjR-tJ-3cz"/>
+                    <constraint firstItem="yEF-w5-WFK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="adh-GG-aTw"/>
+                    <constraint firstItem="fla-TE-RlI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="gXw-aZ-yhh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="labelTxt" destination="fla-TE-RlI" id="o76-OI-6N4"/>
+            </connections>
+            <point key="canvasLocation" x="129" y="122"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Line" width="315" height="1"/>
+    </resources>
+</document>

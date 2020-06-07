@@ -1,0 +1,6 @@
+framework module Pods_Rental_Service {
+  umbrella header "Pods-Rental Service-umbrella.h"
+
+  export *
+  module * { export * }
+}

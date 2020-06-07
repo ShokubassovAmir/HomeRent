@@ -1,0 +1,36 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.2'
+
+target 'Rental Service' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Storage'
+  pod 'Firebase/DynamicLinks'
+  pod 'Toast-Swift', '~> 5.0.0'
+  pod 'Moya'
+  pod 'Moya-ObjectMapper'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'ImagePicker'
+  pod 'Kingfisher', '~> 5.0'
+  pod 'FAQView', '~> 0.5.0'
+  pod 'FSCalendar'
+  pod 'ImageSlideshow/SDWebImage'
+  pod 'BraintreeDropIn'
+  
+  # Pods for Rental Service
+
+  target 'Rental ServiceTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Rental ServiceUITests' do
+    # Pods for testing
+  end
+
+end
